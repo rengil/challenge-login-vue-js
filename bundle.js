@@ -44,19 +44,12 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	function init () {
-	  new Vue({
-	    el: '#app',
-	    data: {
-	      todos: [
-	        { text: 'Learn JavaScript' },
-	        { text: 'Learn Vue.js' },
-	        { text: 'Build Something Awesome' }
-	      ]
-	    }
-	  })
-
-	}
+	new Vue({
+	  el: '#app',
+	  data: {
+	    message: 'Hello Vue.js!'
+	  }
+	})
 
 
 /***/ }

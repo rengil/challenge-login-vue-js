@@ -3,13 +3,13 @@
         <meta charset="utf-8">
     </head>
     <body>
-      <section class="hero is-light is-fullheight">
-        <div class="hero-body"> </div>
+      <section class="hero is-primary is-fullheight">
+        <div class="hero-head"> </div>
 
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
           <div class="container has-text-centered">
-              <label class="label">Name</label>
+              <label class="label" id='app'>{{message}}</label>
               <p class="control">
                 <input class="input" type="text" placeholder="Text input">
               </p>
@@ -19,7 +19,7 @@
                 <input class="input" type="password" placeholder="Password">
               </p>
 
-              <a class="button is-primary is-large is-outlined ">Primary</a>
+              <a class="button is-secondary is-large is-outlined ">Primary</a>
           </div>
         </div>
 
@@ -29,6 +29,6 @@
 
         <script src="./bower_components/vue/dist/vue.js"></script>
         <script src="./entry.js"></script>
-        <link rel="stylesheet" type="text/css" href="bower_components/bulma/css/bulma.min.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/bulma/css/bulma.css">
     </body>
 </html>
